@@ -320,8 +320,8 @@ export const orderDummyData = [
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
       "fullName": "S-Tech",
       "phoneNumber": "0123456789",
-      "pincode": 654321,
-      "area": "Main Road , 123 Street, G Block",
+      "zipcode": 654321,
+      "street": "Main Road , 123 Street, G Block",
       "city": "City",
       "state": "State",
       "__v": 0
@@ -359,8 +359,8 @@ export const orderDummyData = [
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
       "fullName": "S-Tech",
       "phoneNumber": "0123456789",
-      "pincode": 654321,
-      "area": "Main Road , 123 Street, G Block",
+      "zipcode": 654321,
+      "street": "Main Road , 123 Street, G Block",
       "city": "City",
       "state": "State",
       "__v": 0
@@ -401,8 +401,8 @@ export const orderDummyData = [
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
       "fullName": "S-Tech",
       "phoneNumber": "0123456789",
-      "pincode": 654321,
-      "area": "Main Road , 123 Street, G Block",
+      "zipcode": 654321,
+      "street": "Main Road , 123 Street, G Block",
       "city": "City",
       "state": "State",
       "__v": 0
@@ -419,8 +419,8 @@ export const addressDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "fullName": "S-Tech",
     "phoneNumber": "0123456789",
-    "pincode": 654321,
-    "area": "Main Road , 123 Street, G Block",
+    "zipcode": 654321,
+    "street": "Main Road , 123 Street, G Block",
     "city": "City",
     "state": "State",
     "__v": 0

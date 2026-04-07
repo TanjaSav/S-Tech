@@ -17,10 +17,10 @@ export type Product = {
 export type Address = {
   fullName: string;
   phoneNumber: string;
-  pincode?: string;
-  area: string;
+  street: string;
   city: string;
   state: string;
+  zipcode?: string | number;
 };
 
 export type OrderItem = {

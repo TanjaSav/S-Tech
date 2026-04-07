@@ -13,7 +13,8 @@ import type { Product } from '@/types';
 
 const Product = () => {
 
-    const { id } = useParams();
+    // const { id } = useParams();
+    const { id } = useParams<{ id: string }>();
 
     const { products, router, addToCart } = useAppContext()
 
@@ -46,19 +47,18 @@ const Product = () => {
                     <div className="grid grid-cols-4 gap-4">
                         {productData.image.map((image, index) => (
                             <div
-                                key={index}
+                                key={`${productData._id}-${index}`}
                                 onClick={() => setMainImage(image)}
                                 className="cursor-pointer rounded-lg overflow-hidden bg-gray-500/10"
                             >
                                 <Image
                                     src={image}
-                                    alt="alt"
+                                    alt="product image"
                                     className="w-full h-auto object-cover mix-blend-multiply"
                                     width={1280}
                                     height={720}
                                 />
                             </div>
-
                         ))}
                     </div>
                 </div>

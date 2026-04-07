@@ -11,8 +11,8 @@ const AddAddress = () => {
     const [address, setAddress] = useState<Address>({
         fullName: '',
         phoneNumber: '',
-        pincode: '',
-        area: '',
+        zipcode: '',
+        street: '',
         city: '',
         state: '',
     })
@@ -49,14 +49,14 @@ const AddAddress = () => {
                             className="px-2 py-2.5 focus:border-[#07751B] transition border border-gray-500/30 rounded outline-none w-full text-gray-500"
                             type="text"
                             placeholder="Pin code"
-                            onChange={(e) => setAddress({ ...address, pincode: e.target.value })}
-                            value={address.pincode}
+                            onChange={(e) => setAddress({ ...address, zipcode: e.target.value })}
+                            value={address.zipcode}
                         />
                         <input
                             className="px-2 py-2.5 focus:border-[#07751B] transition border border-gray-500/30 rounded outline-none w-full text-gray-500 resize-none"
                             placeholder="Street"
-                            onChange={(e) => setAddress({ ...address, area: e.target.value })}
-                            value={address.area}
+                            onChange={(e) => setAddress({ ...address, street: e.target.value })}
+                            value={address.street}
                         />
                         <div className="flex space-x-3">
                             <input
@@ -79,11 +79,7 @@ const AddAddress = () => {
                         Save address
                     </button>
                 </form>
-                {/* <Image
-                    className="md:mr-16 mt-16 md:mt-0"
-                    src={assets.my_location_image}
-                    alt="my_location_image"
-                /> */}
+               
             </div>
             <Footer />
         </>
