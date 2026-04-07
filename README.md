@@ -1,6 +1,10 @@
 # S-Tech
 
-S-Tech is an e-commerce storefront built with **Next.js** and **TypeScript**.
+S-Tech is an e-commerce store built with **Next.js** and **TypeScript**.
+
+## Live Demo
+
+https://s-tech-three.vercel.app
 
 ## Stack
 
